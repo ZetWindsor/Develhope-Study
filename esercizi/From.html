@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>HTML Lesson esercizio <Form></Form>
+  </title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <legend>compila i campi</legend>
+  <form>
+    <div><label for="email">email:</label>
+      <input type="email" name="email" id="email" placeholder="mariorossi@gmail.com">
+    </div>
+
+    <div><label for="password">password:</label>
+      <input type="password" name="password" id="password">
+    </div>
+
+    <div><label for="name">nome:</label>
+      <input type="text" name="name" id="name" placeholder="Mario">
+    </div>
+
+    <div> <label for="last_name">cognome:</label>
+      <input type="text" name="last_name" id="last_name" placeholder="rossi">
+    </div>
+
+    <div> <label for="birth"> data di nascita</label>
+      <input type="date" name="birth" id="birth">
+    </div>
+
+    <div> <label for="tel">numero di telefono</label>
+      <input type="tel" name="tel" id="tel">
+    </div>
+
+    <div>
+      <div><label for="Choosin_plans">Scegli il tuo piano</label>
+        <select name="Choosin_plans" id="Choosin_plans">
+          <option value="free">Gratis</option>
+          <option value="poor">piano poveri</option>
+          <option value="medium">paino benestanti</option>
+          <option value="rich">paino ricchi</option>
+        </select>
+      </div>
+      <div class="checkbox_PRO">
+        <label for="PRO"></label>
+        <input type="checkbox" name="PRO" id="PRO"> piano PRO
+      </div>
+    </div>
+
+    <div>
+      <div> <label for="credit_card"> inserisci la carta di credio :</label>
+        <input type="tel" name="credit_card" id="credit_card" placeholder="XXXX XXXX XXXX XXXX" pattern="[0-9]"
+          maxlength="19" style="width: 180px;">
+      </div>
+
+      <div> <label for="CVC"> CVC:</label>
+        <input type="tel" name="CVC" id="CVC" placeholder="123" pattern="[0-9]" maxlength="3">
+
+      </div>
+      <div> <label for="expiration_date"> Data di scadenza</label>
+        <input type="date" name="expiration_date" id="expiration_date">
+      </div>
+
+      <div> <label for="Billing_addres">insersci l'indirizzo di fatturazione</label>
+        <input type="text" name="Billing_addres" id="Billing_addres">
+      </div>
+
+    </div>
+
+    <button>invia</button>
+
+  </form>
+</body>
+
+</html>

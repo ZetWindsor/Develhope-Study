@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Output</title>
+</head>
+<body>
+
+<ul id="parentUl">
+    <li id="firstLi">1</li>
+    <li id="secondLi">2</li>
+    <li id="thirdLi">3</li>
+</ul>
+
+<script>
+
+
+const $html = document.documentElement;
+const $body = $html.children[1];
+const $ul = $body.children[0];
+const $li2 = $ul.children[1];
+
+const state = {};
+
+console.log($ul.parentElement);
+
+console.log($ul.children[1]);
+
+console.log($li2.nextElementSibling);
+
+console.log($li2.previousElementSibling);
+</script>
+
+</body>
+</html>

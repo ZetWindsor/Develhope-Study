@@ -1,0 +1,36 @@
+:root {
+  /*colors*/
+  --color-primary: #ff6b81;
+  --color-secondary: #f9f9f9;
+  --color-inverse: #ffffff;
+  --color-tertiary: #081828;
+  --color-text:#888888;
+  /*dimentions*/
+  --max-view-width: 1320px;
+  --font-size-xl: 38px;
+  --font-size-lg: 34px;
+  --font-size-md: 18px;
+  --font-size-sm: 15px;
+  --font-weight-xl: 800;
+  --font-weight-lg:600;
+  --font-weight-md: 500;
+  --font-weight-sm: 400;
+  /*borders*/
+  --border-default: 1px solid #eee;
+  --border-radius: 6px;
+  --border-btn: 2px solid #fff;
+  --border-btn-radius:5px;
+  /*shadows*/
+  --shadow-hover: 0px 3px 5px rgba(0, 0, 0, 0.09);
+  --shadow-default:0px 20px 50px 0px rgba(0, 0, 0, 0.05);
+  /*font family*/
+  --font-family: 'Inter', sans-serif;
+  /*paddings*/
+  --p-xl: 100px;
+  --p-btn:15px 30px;
+  /*margins*/
+  --m-xl: 25px;
+  --m-lg: 20px;
+  /*timing*/
+  --transition-btn: all ease-in-out 0.25s;
+}

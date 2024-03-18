@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <form method="post" action="http://develhope.co">
+    <div><label for="first_name">First Name <abbr title="insersici qui il tuo nome">*</abbr> :</label>
+      <input type="text" name="first_name" placeholder="Mario" required>
+    </div>
+    <div> <label for="last_name">Last Name<abbr title="insersici qui il tuo cognome">*</abbr></label>:</label>
+      <input type="text" name="last_name" placeholder="Rossi" required>
+    </div>
+
+    <label for="list-label">consent list</label>
+    <ul aria-labelledby="list-label" tabindex="0">
+      <li>
+        <input type="checkbox" name="subscribe" value="subscribed">
+        <label for="subscribe">Subscribe for the newsletter</label>
+      </li>
+
+      <li>
+
+        <input type="checkbox" name="terms" value="agreed" required>
+        <label for="terms">Agree to terms and condition</label>
+      </li>
+    </ul>
+    <br>
+    <fieldset>
+      <legend>scegli la tua frutta preferita</legend>
+
+      <div>
+        <input type="radio" id="Banana" name="favourite_fruit" value="Banana" required>
+        <label for="Banana">Banana</label>
+      </div>
+
+      <div>
+        <input type="radio" id="Apple" name="favourite_fruit" value="Apple" required>
+        <label for="Apple">Apple</label>
+      </div>
+
+      <div>
+        <input type="radio" id="Orange" name="favourite_fruit" value="Orange" required>
+        <label for="Orange">Orange</label>
+      </div>
+    </fieldset>
+
+    <button>Submit</button>
+
+
+
+  </form>
+
+</body>
+
+</html>

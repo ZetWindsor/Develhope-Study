@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    .theme {
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Dark Mode</h1>
+  <div>
+    <button class="btn">Dark Mode</button>
+  </div>
+  <script>
+
+    const $btn = document.querySelector(".btn");
+    const $body = document.querySelector("body");
+    const $h1 = document.querySelector("h1")
+
+    $btn.addEventListener('click', (event) => {
+      $body.classList.toggle('theme');
+
+      if ($body.classList.contains('theme')) {
+        $btn.textContent = 'Light Mode';
+        $h1.textContent = 'troppo buio, la luce ti guiderà'
+      } else {
+        $btn.textContent = 'Dark Mode';
+        $h1.textContent = 'Passa al lato oscuro';
+      }
+    })
+  </script>
+</body>
+
+</html>

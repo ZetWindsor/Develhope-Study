@@ -1,0 +1,33 @@
+nav {
+  height: 92px;
+  box-shadow: var(--shadow-default);
+}
+
+nav .nav__logo img {
+  width: 160px;
+  height: auto;
+}
+
+nav .nav__menu {
+  gap: 42px;
+}
+
+nav .nav__menu div.active a {
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-lg);
+  cursor: pointer;
+  transition: var(--transition-btn);
+}
+
+nav .nav__menu div a {
+  color: var(--color-tertiary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-lg);
+  cursor: pointer;
+  transition: var(--transition-btn);
+}
+
+nav .nav__menu div a:hover {
+  color: var(--color-primary);
+}

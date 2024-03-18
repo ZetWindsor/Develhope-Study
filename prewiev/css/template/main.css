@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: var(--font-family) !important;
+}
+/*dimentions*/
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section.container {
+  padding: var(--p-xl) 0;
+}
+
+.row {
+  width: 100%;
+  max-width: var(--max-view-width);
+}
+
+.h-xl {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-xl);
+  color: var(--color-tertiary);
+}
+
+.h-lg {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-xl);
+  color: var(--color-tertiary);
+}
+
+.h-md {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-md);
+  color: var(--color-tertiary);
+}
+
+.h-intro {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-lg);
+  color: var(--color-primary);
+
+}
+
+.p-default {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-sm);
+  color: var(--color-text);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--color-tertiary);
+}
+
+.bg-inverse {
+  background-color: var(--color-inverse);
+}
+
+.btn-primary {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  border:var(--border-btn);
+  border-radius: var(--border-btn-radius);
+  color:var(--color-inverse);
+  padding: var(--p-btn);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-lg);
+  transition:var(--transition-btn);
+
+}
+
+.btn-primary:hover{
+  background-color: var(--color-tertiary);
+}
